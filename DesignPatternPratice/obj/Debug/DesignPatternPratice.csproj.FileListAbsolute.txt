@@ -1,0 +1,6 @@
+D:\OneDrive\Documents\Visual Studio 2013\DesignPatternPratice\DesignPatternPratice\bin\Debug\DesignPatternPratice.exe.config
+D:\OneDrive\Documents\Visual Studio 2013\DesignPatternPratice\DesignPatternPratice\obj\Debug\DesignPatternPratice.csprojResolveAssemblyReference.cache
+D:\OneDrive\Documents\Visual Studio 2013\DesignPatternPratice\DesignPatternPratice\bin\Debug\DesignPatternPratice.exe
+D:\OneDrive\Documents\Visual Studio 2013\DesignPatternPratice\DesignPatternPratice\bin\Debug\DesignPatternPratice.pdb
+D:\OneDrive\Documents\Visual Studio 2013\DesignPatternPratice\DesignPatternPratice\obj\Debug\DesignPatternPratice.exe
+D:\OneDrive\Documents\Visual Studio 2013\DesignPatternPratice\DesignPatternPratice\obj\Debug\DesignPatternPratice.pdb
