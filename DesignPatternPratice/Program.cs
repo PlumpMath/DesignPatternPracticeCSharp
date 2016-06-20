@@ -13,7 +13,8 @@ namespace DesignPatternPratice
             //TestStrategyPattern();
             //TestObserverPattern();
             //TestDecoratorPattern();
-            TestSimpleFactory();
+            //TestSimpleFactory();
+            TestFactoryMethodPattern();
             
             Console.Read();
         }
@@ -79,6 +80,16 @@ namespace DesignPatternPratice
             s.Name = "Jack";
             //Print them out.
             Console.WriteLine("Id:{0} Name:{1}", s.Id, s.Name);
+        }
+
+        public static void TestFactoryMethodPattern()
+        {
+            DesignPatternPratice.FactoryMethod_Pattern.MeatBentoShop meatBentoShop = new FactoryMethod_Pattern.MeatBentoShop();
+            DesignPatternPratice.FactoryMethod_Pattern.VeggieBentoShop veggieBentoShop = new FactoryMethod_Pattern.VeggieBentoShop();
+
+            meatBentoShop.OrderBento("Fish");
+            meatBentoShop.OrderBento("Chicken");
+            veggieBentoShop.OrderBento("Pure");
         }
     }
 }

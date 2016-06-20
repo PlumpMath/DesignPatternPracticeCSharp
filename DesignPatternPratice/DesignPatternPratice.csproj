@@ -47,6 +47,14 @@
     <Compile Include="Decorator_Pattern\ManagerBonus.cs" />
     <Compile Include="Decorator_Pattern\ProjectBonus.cs" />
     <Compile Include="Decorator_Pattern\Salary.cs" />
+    <Compile Include="FactoryMethod_Pattern\Bento.cs" />
+    <Compile Include="FactoryMethod_Pattern\BentoShop.cs" />
+    <Compile Include="FactoryMethod_Pattern\ChickenBento.cs" />
+    <Compile Include="FactoryMethod_Pattern\FishBento.cs" />
+    <Compile Include="FactoryMethod_Pattern\MeatBentoShop.cs" />
+    <Compile Include="FactoryMethod_Pattern\PorkBento.cs" />
+    <Compile Include="FactoryMethod_Pattern\PureVeggieBento.cs" />
+    <Compile Include="FactoryMethod_Pattern\VeggieBentoShop.cs" />
     <Compile Include="Observer_Pattern\Commander.cs" />
     <Compile Include="Observer_Pattern\General.cs" />
     <Compile Include="Observer_Pattern\Observer.cs" />
@@ -69,6 +77,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
