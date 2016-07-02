@@ -14,8 +14,8 @@ namespace DesignPatternPratice
             //TestObserverPattern();
             //TestDecoratorPattern();
             //TestSimpleFactory();
-            TestFactoryMethodPattern();
-            
+            //TestFactoryMethodPattern();
+            TestAbstractFactoryPattern();
             Console.Read();
         }
 
@@ -90,6 +90,15 @@ namespace DesignPatternPratice
             meatBentoShop.OrderBento("Fish");
             meatBentoShop.OrderBento("Chicken");
             veggieBentoShop.OrderBento("Pure");
+        }
+
+        public static void TestAbstractFactoryPattern()
+        {
+            Abstract_Factory_Pattern.BentoFactory zhengZhon = new Abstract_Factory_Pattern.ZhengZhonBentoFactory();
+            Abstract_Factory_Pattern.BentoFactory TaiShiFu = new Abstract_Factory_Pattern.TaiShiFuBentoFactory();
+
+            zhengZhon.OrderBento("beef");
+            TaiShiFu.OrderBento("chicken");
         }
     }
 }

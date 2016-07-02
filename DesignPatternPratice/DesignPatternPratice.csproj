@@ -42,6 +42,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract_Factory_Pattern\BeefBento.cs" />
+    <Compile Include="Abstract_Factory_Pattern\BeefSoup.cs" />
+    <Compile Include="Abstract_Factory_Pattern\Bento.cs" />
+    <Compile Include="Abstract_Factory_Pattern\BentoFactory.cs" />
+    <Compile Include="Abstract_Factory_Pattern\BentoIngredientFactory.cs" />
+    <Compile Include="Abstract_Factory_Pattern\BlackRice.cs" />
+    <Compile Include="Abstract_Factory_Pattern\Celery.cs" />
+    <Compile Include="Abstract_Factory_Pattern\ChickenBento.cs" />
+    <Compile Include="Abstract_Factory_Pattern\ChickenMeat.cs" />
+    <Compile Include="Abstract_Factory_Pattern\ChickenSoup.cs" />
+    <Compile Include="Abstract_Factory_Pattern\KaohsiungBentoIngredientFactory.cs" />
+    <Compile Include="Abstract_Factory_Pattern\Meat.cs" />
+    <Compile Include="Abstract_Factory_Pattern\Pork.cs" />
+    <Compile Include="Abstract_Factory_Pattern\Rice.cs" />
+    <Compile Include="Abstract_Factory_Pattern\Soup.cs" />
+    <Compile Include="Abstract_Factory_Pattern\Spinach.cs" />
+    <Compile Include="Abstract_Factory_Pattern\TaipeiIngredientFactory.cs" />
+    <Compile Include="Abstract_Factory_Pattern\TaiShiFuBentoFactory.cs" />
+    <Compile Include="Abstract_Factory_Pattern\Vegetable.cs" />
+    <Compile Include="Abstract_Factory_Pattern\WhiteRice.cs" />
+    <Compile Include="Abstract_Factory_Pattern\ZhengZhonBentoFactory.cs" />
     <Compile Include="Decorator_Pattern\Bonus.cs" />
     <Compile Include="Decorator_Pattern\EmployeeSalary.cs" />
     <Compile Include="Decorator_Pattern\ManagerBonus.cs" />
