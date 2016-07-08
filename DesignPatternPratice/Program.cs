@@ -15,7 +15,8 @@ namespace DesignPatternPratice
             //TestDecoratorPattern();
             //TestSimpleFactory();
             //TestFactoryMethodPattern();
-            TestAbstractFactoryPattern();
+            //TestAbstractFactoryPattern();
+            TestSingletonPattern();
             Console.Read();
         }
 
@@ -99,6 +100,24 @@ namespace DesignPatternPratice
 
             zhengZhon.OrderBento("beef");
             TaiShiFu.OrderBento("chicken");
+        }
+
+        public static void TestSingletonPattern()
+        {
+            Singleton_Pattern.LoggerNoThreadSafe logger1 = Singleton_Pattern.LoggerNoThreadSafe.GetInstance();
+            Singleton_Pattern.LoggerNoThreadSafe logger2 = Singleton_Pattern.LoggerNoThreadSafe.GetInstance();
+
+            Console.WriteLine("Same instance? {0}", Object.ReferenceEquals(logger1,logger2).ToString());
+
+            Singleton_Pattern.LoggerSimpleThreadSafe logger3 = Singleton_Pattern.LoggerSimpleThreadSafe.GetInstance();
+            Singleton_Pattern.LoggerSimpleThreadSafe logger4 = Singleton_Pattern.LoggerSimpleThreadSafe.GetInstance();
+
+            Console.WriteLine("Same instance? {0}", Object.ReferenceEquals(logger3, logger4).ToString());
+
+            Singleton_Pattern.LoggerFullLazy logger5=Singleton_Pattern.LoggerFullLazy.GetInstance();
+            Singleton_Pattern.LoggerFullLazy logger6 = Singleton_Pattern.LoggerFullLazy.GetInstance();
+
+            Console.WriteLine("Same instance? {0}", Object.ReferenceEquals(logger5, logger6).ToString());
         }
     }
 }

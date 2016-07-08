@@ -87,6 +87,9 @@
     <Compile Include="Simple_Factory\Student.cs" />
     <Compile Include="Simple_Factory\StudentFactory.cs" />
     <Compile Include="Simple_Factory\Teacher.cs" />
+    <Compile Include="Singleton_Pattern\LoggerFullLazy.cs" />
+    <Compile Include="Singleton_Pattern\LoggerNoThreadSafe.cs" />
+    <Compile Include="Singleton_Pattern\LoggerSimpleThreadSafe.cs" />
     <Compile Include="Strategy_Pattern\AttackStrategy.cs" />
     <Compile Include="Strategy_Pattern\AttackWithScepter.cs" />
     <Compile Include="Strategy_Pattern\AttackWithSword.cs" />
