@@ -16,7 +16,8 @@ namespace DesignPatternPratice
             //TestSimpleFactory();
             //TestFactoryMethodPattern();
             //TestAbstractFactoryPattern();
-            TestSingletonPattern();
+            //TestSingletonPattern();
+            TestCommandPattern();
             Console.Read();
         }
 
@@ -118,6 +119,15 @@ namespace DesignPatternPratice
             Singleton_Pattern.LoggerFullLazy logger6 = Singleton_Pattern.LoggerFullLazy.GetInstance();
 
             Console.WriteLine("Same instance? {0}", Object.ReferenceEquals(logger5, logger6).ToString());
+        }
+
+        public static void TestCommandPattern()
+        {
+            Command_Pattern.RemoteControl remote = Command_Pattern.RemoteBuilder.MakeRemote();
+            remote.LightOn();
+            remote.LightOff();
+            remote.ACON();
+            remote.PartyOn();
         }
     }
 }

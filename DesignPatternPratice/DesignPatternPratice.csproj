@@ -63,6 +63,16 @@
     <Compile Include="Abstract_Factory_Pattern\Vegetable.cs" />
     <Compile Include="Abstract_Factory_Pattern\WhiteRice.cs" />
     <Compile Include="Abstract_Factory_Pattern\ZhengZhonBentoFactory.cs" />
+    <Compile Include="Command_Pattern\ACOffCommand.cs" />
+    <Compile Include="Command_Pattern\ACOnCommand.cs" />
+    <Compile Include="Command_Pattern\AirconditionerReceiver.cs" />
+    <Compile Include="Command_Pattern\Command.cs" />
+    <Compile Include="Command_Pattern\LightOffCommand.cs" />
+    <Compile Include="Command_Pattern\LightOnCommand.cs" />
+    <Compile Include="Command_Pattern\LightReceiver.cs" />
+    <Compile Include="Command_Pattern\MacroCommand.cs" />
+    <Compile Include="Command_Pattern\RemoteBuilder.cs" />
+    <Compile Include="Command_Pattern\RemoteControl.cs" />
     <Compile Include="Decorator_Pattern\Bonus.cs" />
     <Compile Include="Decorator_Pattern\EmployeeSalary.cs" />
     <Compile Include="Decorator_Pattern\ManagerBonus.cs" />
