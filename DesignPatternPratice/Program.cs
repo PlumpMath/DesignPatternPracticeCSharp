@@ -17,7 +17,8 @@ namespace DesignPatternPratice
             //TestFactoryMethodPattern();
             //TestAbstractFactoryPattern();
             //TestSingletonPattern();
-            TestCommandPattern();
+            //TestCommandPattern();
+            TestAdapterPattern();
             Console.Read();
         }
 
@@ -128,6 +129,17 @@ namespace DesignPatternPratice
             remote.LightOff();
             remote.ACON();
             remote.PartyOn();
+        }
+
+        public static void TestAdapterPattern()
+        {
+            Adapter_Pattern.NewLogger newLogger=new Adapter_Pattern.NewLoggerImpl();
+            Adapter_Pattern.OldLogger oldLogger=new Adapter_Pattern.OldLoggerImpl();
+            Adapter_Pattern.OldLoggerToNewLoggerAdapter adapter=new Adapter_Pattern.OldLoggerToNewLoggerAdapter(oldLogger);
+            adapter.CreateLog(new Adapter_Pattern.Log());
+            adapter.ReadLogs();
+            adapter.UpdateLog(new Adapter_Pattern.Log());
+            adapter.DeleteLog(new Adapter_Pattern.Log());
         }
     }
 }

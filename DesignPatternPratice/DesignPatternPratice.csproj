@@ -63,6 +63,12 @@
     <Compile Include="Abstract_Factory_Pattern\Vegetable.cs" />
     <Compile Include="Abstract_Factory_Pattern\WhiteRice.cs" />
     <Compile Include="Abstract_Factory_Pattern\ZhengZhonBentoFactory.cs" />
+    <Compile Include="Adapter_Pattern\Log.cs" />
+    <Compile Include="Adapter_Pattern\NewLogger.cs" />
+    <Compile Include="Adapter_Pattern\NewLoggerImpl.cs" />
+    <Compile Include="Adapter_Pattern\OldLogger.cs" />
+    <Compile Include="Adapter_Pattern\OldLoggerToNewLoggerAdapter.cs" />
+    <Compile Include="Adapter_Pattern\OldLoggerImpl.cs" />
     <Compile Include="Command_Pattern\ACOffCommand.cs" />
     <Compile Include="Command_Pattern\ACOnCommand.cs" />
     <Compile Include="Command_Pattern\AirconditionerReceiver.cs" />
