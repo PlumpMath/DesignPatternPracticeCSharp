@@ -84,6 +84,11 @@
     <Compile Include="Decorator_Pattern\ManagerBonus.cs" />
     <Compile Include="Decorator_Pattern\ProjectBonus.cs" />
     <Compile Include="Decorator_Pattern\Salary.cs" />
+    <Compile Include="Facade_Pattern\AirConditioner.cs" />
+    <Compile Include="Facade_Pattern\ModeSwitcherFacade.cs" />
+    <Compile Include="Facade_Pattern\Fan.cs" />
+    <Compile Include="Facade_Pattern\Llight.cs" />
+    <Compile Include="Facade_Pattern\Notebook.cs" />
     <Compile Include="FactoryMethod_Pattern\Bento.cs" />
     <Compile Include="FactoryMethod_Pattern\BentoShop.cs" />
     <Compile Include="FactoryMethod_Pattern\ChickenBento.cs" />

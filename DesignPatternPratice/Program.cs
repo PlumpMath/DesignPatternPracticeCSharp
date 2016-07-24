@@ -18,7 +18,8 @@ namespace DesignPatternPratice
             //TestAbstractFactoryPattern();
             //TestSingletonPattern();
             //TestCommandPattern();
-            TestAdapterPattern();
+            //TestAdapterPattern();
+            TestFacadePattern();
             Console.Read();
         }
 
@@ -140,6 +141,18 @@ namespace DesignPatternPratice
             adapter.ReadLogs();
             adapter.UpdateLog(new Adapter_Pattern.Log());
             adapter.DeleteLog(new Adapter_Pattern.Log());
+        }
+
+        public static void TestFacadePattern()
+        {
+            Facade_Pattern.Fan fan = new Facade_Pattern.Fan();
+            Facade_Pattern.AirConditioner ac=new Facade_Pattern.AirConditioner();
+            Facade_Pattern.Light light=new Facade_Pattern.Light();
+            Facade_Pattern.Notebook nb=new Facade_Pattern.Notebook();
+            Facade_Pattern.ModeSwitcherFacade facade = new Facade_Pattern.ModeSwitcherFacade(ac, light, fan, nb);
+
+            facade.SetGamingMode();
+            facade.SetMovieMode();
         }
     }
 }
